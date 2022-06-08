@@ -14,13 +14,15 @@ let userMail = false;
 for(let i = 0; i < mailList.length; i++) {
 
     const mail = mailList[i];
-    
+
+    // verifico se la mail è corretta
     if(userInput === mail) {
         userMail = true;
     }
 
 }
 
+// messaggio utente
 if(userMail) {
     alert('Benvenuto!')
 } else {
